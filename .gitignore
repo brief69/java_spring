@@ -1,0 +1,117 @@
+# Compiled class files
+*.class
+
+# Log file
+*.log
+
+# Java package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven directory
+target/
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Application specific files
+src/main/resources/application.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-test.properties
+src/main/resources/application-prod.properties
+
+# Local configuration file (containing private information such as database passwords)
+*.local
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Node modules
+node_modules/
+
+# Database files
+*.db
+*.sql
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Other files to ignore
+*.swp
+*.swo
+*.out
+*.hist
+*.class
+*.log
+*.ctxt
+*.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore IntelliJ project files
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore Jekyll build output
+_site/
+
+# Ignore local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore npm log
+npm-debug.log*
+
+# Ignore Gradle files
+.gradle/
+build/
+
+# Ignore sftp configuration file
+sftp-config.json
+
+# Ignore TypeScript compiled files
+*.tsbuildinfo
